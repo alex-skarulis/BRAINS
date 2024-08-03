@@ -1,0 +1,39 @@
+.
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── __init__.py
+├── app
+│   ├── api
+│   │   ├── __init__.py
+│   │   └── v1
+│   │       ├── __init__.py
+│   │       ├── dependencies.py
+│   │       └── endpoints
+│   │           ├── __init__.py
+│   │           └── example.py
+│   ├── core
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   └── security.py
+│   ├── data
+│   │   └── example.json
+│   ├── main.py
+│   ├── schemas
+│   │   ├── __init__.py
+│   │   └── example_schema.py
+│   ├── services
+│   │   ├── __init__.py
+│   │   └── example_service.py
+│   └── utils
+│       ├── __init__.py
+│       └── common.py
+├── data
+├── directory_structure.txt
+├── pytest.ini
+├── requirements.txt
+└── tests
+    ├── __init__.py
+    └── test_example.py
+
+12 directories, 25 files
