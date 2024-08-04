@@ -11,13 +11,16 @@
 │   │       ├── dependencies.py
 │   │       └── endpoints
 │   │           ├── __init__.py
-│   │           └── example.py
+│   │           ├── example.py
+│   │           └── json_example.py
 │   ├── core
 │   │   ├── __init__.py
 │   │   ├── config.py
 │   │   └── security.py
 │   ├── data
-│   │   └── example.json
+│   │   ├── json
+│   │   ├── jsonl
+│   │   └── markdown
 │   ├── main.py
 │   ├── schemas
 │   │   ├── __init__.py
@@ -27,13 +30,16 @@
 │   │   └── example_service.py
 │   └── utils
 │       ├── __init__.py
-│       └── common.py
-├── data
+│       ├── common.py
+│       ├── json_utils.py
+│       ├── jsonl_utils.py
+│       └── markdown_utils.py
 ├── directory_structure.txt
 ├── pytest.ini
 ├── requirements.txt
 └── tests
     ├── __init__.py
-    └── test_example.py
+    ├── test_example.py
+    └── test_json_example.py
 
-12 directories, 25 files
+14 directories, 29 files
