@@ -1,4 +1,4 @@
-import json
+import ujson as json
 from pathlib import Path
 
 def read_json(file_path):
