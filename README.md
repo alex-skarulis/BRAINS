@@ -13,16 +13,17 @@
 - **Character Sheets:** Players and AI agents have their own character sheets, guiding their role-playing decisions.
 - **AI Integration:** AI agents are powered by models defined in their character sheets, with the ability to autonomously complete quests.
 
-Usage
+## Usage
+
 Start the game with:
 
-bash
-Copy code
+```bash
 python -m brains.cli --start --player <your_name>
+```
+
 Example:
 
-bash
-Copy code
+```bash
 python -m brains.cli --start --player "Alex"
 Development
 Repository Structure
@@ -40,6 +41,7 @@ ujson: Fast JSON processing.
 uvicorn: ASGI server (planned for future expansion).
 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
+```
 
 ### License
 
