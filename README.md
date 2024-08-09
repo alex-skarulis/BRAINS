@@ -25,12 +25,20 @@ Example:
 
 ```bash
 python -m brains.cli --start --player "Alex"
-Development
-Repository Structure
+```
+
+## Development
+
+### Repository Structure
+
+```python
 brains/: Core application code.
 tests/: Unit tests.
 docs/: Documentation and design notes.
-Key Python Packages
+```
+
+### Key Python Packages
+
 argparse: Command-line argument parsing.
 fastapi: API framework (planned for future expansion).
 httpx: HTTP client (planned for future expansion).
@@ -39,9 +47,10 @@ openai: AI integration.
 pydantic: Data validation and management.
 ujson: Fast JSON processing.
 uvicorn: ASGI server (planned for future expansion).
-Contributing
+
+### Contributing
+
 Contributions are welcome! Please fork the repository and submit a pull request.
-```
 
 ### License
 
