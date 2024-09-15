@@ -1,3 +1,7 @@
+# RPG Game Overview Example
+
+## Using `flowchart TD`
+
 ```mermaid
 flowchart TD
 
@@ -48,6 +52,26 @@ D4 --> D5c[Roleplay Action] --> D6c[Narrative Outcome]
 D6a --> E1[Check Against Armor Class AC]
 E1 --> E2[Hit] --> E3[Roll Damage]
 E1 --> E4[Miss]
+
+%% Skill Checks
+D6b --> F1["Check Against Difficulty Class (DC)"]
+F1 --> F2[Success] --> F3[Outcome]
+    F1 --> F4[Failure] --> F5[Narrative Consequence]
+
+    %% Roleplay and Storytelling
+    D6c --> G1[GM Describes Outcome]
+    G1 --> G2[Players React and Respond]
+
+    %% Leveling Up and Progression
+    D1 --> H1["Experience Points (XP)"]
+    H1 --> H2["Gain XP from Quests and Battles"]
+    H2 --> H3[Level Up]
+    H3 --> H4[Increase Attributes and Abilities]
+
+    %% Endgame and Session Wrap-up
+    D1 --> I1[Session End]
+    I1 --> I2[GM and Players Reflect]
+    I1 --> I3[Prepare for Next Session]
 
 %% Styling
 classDef green fill:#B2DFDB,stroke:#00897B,stroke-width:2px;
